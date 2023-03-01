@@ -7,6 +7,8 @@
 }
 .nav {
     background-color: #434041;
+    display: flex;
+    justify-content: space-between;
 }
 .nav2 {
     display:flex;
@@ -64,4 +66,23 @@
 
 .dropdown ul li {
     text-align: left;
+}
+
+/* Navigation Dropdowns */
+.nav-dropdowns {
+    position: relative;
+    height: 50vh;
+}
+
+.nav-overlay {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo img {
+    max-height: 60px;
 }
