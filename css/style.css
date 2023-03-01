@@ -1,8 +1,68 @@
 /* Navigation Styling */
-
-.bg-light {
-    background-color: #434041 !important;
+/* Style for the navigation bar */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.bg-dark {
-    background-color: #7B9B4A !important;
+.nav {
+    background-color: #434041;
+}
+.nav2 {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #7B9B4A;
+}
+
+.nav2 li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav2 a {
+    text-decoration:none;
+    color: #ffffff;
+    padding: 15px;
+    display: block;
+    margin-top
+}
+
+.dropdown a{
+    color: #ffffff;
+}
+.dropdown li a{
+    color: #383838;
+}
+.dropdown ul {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 0;
+}
+
+.dropdown:hover ul {
+    display: block;
+}
+
+.dropdown li {
+    margin: 0;
+    color:#383838;
+
+}
+
+.dropdown a {
+    padding: 8px 12px;
+}
+
+.dropdown ul li:hover {
+    background-color: #B4C889;
+}
+
+
+.dropdown ul li {
+    text-align: left;
 }
