@@ -65,3 +65,19 @@
 .dropdown ul li {
     text-align: left;
 }
+
+/* Nav Dropdowns */
+
+.nav-dropdowns {
+    position: relative;
+    height: 50vh;
+}
+
+.nav-overlay {
+    position:  absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
